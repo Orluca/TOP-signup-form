@@ -12,7 +12,7 @@
   --color-silver-pink: hsla(21, 18%, 70%, 1);
   --color-tropical-rain-forest: hsla(170, 76%, 26%, 1);
   --color-rich-black: hsla(180, 47%, 18%, 1);
-  --color-antique-brass: hsla(15, 41%, 64%, 1);
+  --color-background: hsla(15, 41%, 64%, 1);
   --color-dark-sienna: hsla(342, 49%, 19%, 1);
 }
 
@@ -85,7 +85,7 @@ h1 {
 
 /* RIGHT SIDE */
 .right-side {
-  background-color: var(--color-antique-brass);
+  background-color: var(--color-background);
   height: 100%;
   width: 100%;
 }
