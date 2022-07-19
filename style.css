@@ -149,6 +149,7 @@ h1 {
   background-color: var(--color-rich-black);
   color: white;
   margin: 2rem;
+  width: fit-content;
 }
 
 .sign-in-text {
@@ -169,4 +170,12 @@ input:invalid {
 
 .hidden {
   display: none;
+}
+
+.valid-input {
+  border: 2px solid greenyellow;
+}
+
+.invalid-input {
+  border: 2px solid red;
 }

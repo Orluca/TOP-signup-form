@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="left-side">
@@ -26,18 +27,18 @@
           <p class="form-title">Let's do this!</p>
           <div class="form-item">
             <label for="first-name">FIRST NAME</label>
-            <input type="text" name="first-name" id="first-name" required />
+            <input type="text" name="first-name" id="first-name" />
             <p class="validation-text hidden">Must contain at least 2 characters</p>
           </div>
           <div class="form-item">
             <label for="last-name">LAST NAME</label>
-            <input type="text" name="last-name" id="last-name" required />
+            <input type="text" name="last-name" id="last-name" />
             <p class="validation-text hidden">Must contain at least 2 characters</p>
           </div>
           <div class="form-item">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" required />
-            <p class="validation-text hidden">Must contain an @ symbol</p>
+            <input type="email" name="email" id="email" />
+            <p class="validation-text hidden">This is not a valid email adress</p>
           </div>
           <div class="form-item">
             <label for="phone-number">PHONE NUMBER (optional)</label>
@@ -46,17 +47,17 @@
           </div>
           <div class="form-item">
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" required />
+            <input type="password" name="password" id="password" />
             <p class="validation-text hidden">Must contain at least 8 characters</p>
           </div>
           <div class="form-item">
             <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm-password" id="confirm-password" required />
-            <p class="validation-text hidden">Does not match.</p>
+            <input type="password" name="confirm-password" id="confirm-password" />
+            <p class="validation-text hidden">Passwords do not match</p>
           </div>
         </div>
-        <button class="submit-button" type="submit">Create Account</button>
       </form>
+      <button class="submit-button" type="submit">Create Account</button>
       <div class="sign-in-text">Already have an account? <a href="">Log in</a></div>
     </div>
   </body>
